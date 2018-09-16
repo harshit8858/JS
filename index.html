@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script>
+        function date(){
+            document.getElementById('one').innerHTML = Date();
+            alert(Date());
+        }
+        var a,b,c;
+        a = 5;
+        b = 6;
+        c = a+b;
+    </script>
+</head>
+<body>
+
+    <button type="submit" onclick="date()">
+        Click to see Date
+    </button>
+    <p id="one">
+        On click it will change to current date
+    </p>
+    <br/>
+    <button type="submit" onclick="document.getElementById('two').innerHTML = 'Now you se me'">
+        Click Me!
+    </button>
+    <p id="two">
+        Wait for click
+    </p>
+    
+    <script>
+        document.write(c);
+    </script>
+
+</body>
+</html>
